@@ -1,0 +1,210 @@
+body {
+	background-color: #FB8739;
+}
+
+.lazyhead {
+	color:  #FB8739;
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	background: linear-gradient(to right, orange, white, orange);
+	border-radius: 10px;
+	padding: 25px;
+	margin: 30px;
+}
+
+p6 {
+	color: #FB8739;
+	font-size: initial;
+    padding: 12px;
+	margin-bottom: 80px;
+}
+
+p1 a {
+	color:  #FFB74D;
+}
+
+b {
+	color: orange;
+}
+
+button .btn {
+	color: orange;
+}
+
+.jumbotron {
+	background-color: white;
+}
+
+.work0 {
+	background: linear-gradient(#F56E00, white, #FFF3E0);
+	padding: 12px;
+	margin: 12px;
+	border-right: 2px solid #F56E00;
+	border-radius: 10px;
+	letter-spacing: 13px;
+}
+
+.work1 {
+	background: linear-gradient(#F56E00, #FFF3E0, white);
+	padding: 12px;
+	margin: 12px;
+	border-right: 2px solid orange;
+	border-left: 2px solid orange;
+	border-radius: 10px;
+}
+
+.work2 {
+	background: linear-gradient(white, #FFF3E0, #F56E00);
+	padding: 12px;
+	margin: 12px;
+	border-right: 2px solid orange;
+	border-left: 2px solid orange;
+	border-radius: 10px;
+}
+
+.work3 {
+	background: linear-gradient( #FB8739, white 50%, #ED3007);
+	padding: 12px;
+	margin: 12px;
+	border: 2px solid #FF7043;
+	border-radius: 10px;
+}
+
+.lazdef dl {
+	color: initial;
+	padding: 12px;
+	margin: 12px;
+	border: linear-gradient(to right, #FFF3E0, white, #FFF3E0);
+	border-radius: 10px;
+}
+
+.img0 {
+	width: 20px;
+	height: 20px;
+}
+
+.img1 {
+	width: 180px;
+	height: 180px;
+	margin: 0px;
+}
+
+.img2 {
+	width: 140px;
+	height: 180px;
+	margin: 0px;
+}
+
+.img3 {
+	width: 70px;
+	height: 70px;
+	margin: 0px;
+	float: left;
+	display: block;
+}
+
+.img4 {
+	width: 70px;
+	height: 70px;
+	margin: 0px;
+	float: right;
+	display: block;
+}
+
+.img5 {
+	width: 180px;
+	height: 130px;
+	margin: 0px;
+}
+
+.sloth {
+	color:  #D84315;
+	font-family: serif;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.nmbr {
+	color: #F57C00;
+	font-family: serif;
+	font-size: 30;
+}
+
+{
+  width: 40px;
+  height: 50px;
+  position: relative;
+  -webkit-animation: mymove 4s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 4s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0%}
+  to {left: 150%;}
+}
+
+@keyframes mymove {
+  from {left: 0%;}
+  to {left: 150%;}
+}
+
+.second {
+  width: 70px;
+  height: 60px;
+  position: relative;
+  -webkit-animation: myfirst 1s infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation: myfirst 1s infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+  0%   {background: red; left: 0%; top: 0%;}
+  25%  {background: yellow; left: 100%; top: 0%;}
+  50%  {background: blue; left: 100%; top: 100%;}
+  75%  {background: green; left: 0%; top: 100%;}
+  100% {background: red; left: 0%; top: 0;}
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0%; top: 0%;}
+  25%  {background: yellow; left: 90%; top: 0%;}
+  50%  {background: blue; left: 90%; top: 90%;}
+  75%  {background: green; left: 90%; top: 90%;}
+  100% {background: red; left: 0%; top: 0%;}
+}
+
+.third {
+  width: 70px;
+  height: 60px;
+  position: relative;
+  -webkit-animation: myfirst 1s infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation: myfirst 1s infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+  0%   {background: transparent; left: 0%; top: 0%;}
+  25%  {background: transparent; right: 0%; top: 0%;}
+  50%  {background: transparent; left: 0%; top: 0%;}
+  75%  {background: transparent; right: 0%; top: 0%;}
+  100% {background: transparent; left: 0%; top: 0%;}
+}
+
+@keyframes myfirst {
+  0%   {background: transparent; left: 0%; top: 0%;}
+  25%  {background: transparent; right: 90%; top: 90%;}
+  50%  {background: transparent; left: 0%; top: 90%;}
+  75%  {background: transparent; right: 90%; top: 90%;}
+  100% {background: transparent; left: 0%; top: 90%;}
+}
+
+.work99 {
+	background-image: url("pic21.jpg");
+}
+
