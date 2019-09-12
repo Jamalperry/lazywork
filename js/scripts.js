@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$(".slug1").click(function() {
 		$(".img1").animate( {
-			right: '150px',
+			right: '100px',
 			width: '180px',
 			height: '180px'
 			});
@@ -9,7 +9,7 @@ $(document).ready(function() {
 		});
 	$(".slug2").click(function() {
 		$(".img2").animate( {
-			left: '150px',
+			left: '100px',
 			width: '180px',
 			height: '180px'
 			});
