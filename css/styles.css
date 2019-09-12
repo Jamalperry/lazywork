@@ -20,9 +20,14 @@ p6 {
 	margin-bottom: 80px;
 }
 
-p1 a {
+p1 a, a .btn, .btn a{
 	color:  #FFB74D;
 }
+
+.2ndlink {
+	color:  #FFB74D;
+}
+	
 
 b {
 	color: orange;
@@ -34,6 +39,10 @@ button .btn {
 
 .jumbotron {
 	background-color: white;
+}
+
+p2 {
+	display: none;
 }
 
 .work0 {
@@ -85,53 +94,63 @@ button .btn {
 }
 
 .img1 {
-	width: 180px;
-	height: 180px;
+	width: 80px;
+	height: 80px;
+	margin: 0px;
+	float: left;
+	display: block;
 	margin: 0px;
 }
 
 .img2 {
-	width: 140px;
-	height: 180px;
-	margin: 0px;
-}
-
-.img3 {
-	width: 70px;
-	height: 70px;
-	margin: 0px;
-	float: left;
-	display: block;
-}
-
-.img4 {
-	width: 70px;
-	height: 70px;
+	width: 80px;
+	height: 80px;
 	margin: 0px;
 	float: right;
 	display: block;
 }
 
-.img5 {
-	width: 180px;
-	height: 130px;
+.img3 {
+	width: 80px;
+	height: 80px;
 	margin: 0px;
 }
 
-.sloth {
-	color:  #D84315;
-	font-family: serif;
-	font-size: 20px;
-	padding: 15px;
+.img4 {
+	width: 80px;
+	height: 80px;
+	margin: 0px;
 }
 
-.nmbr {
+.img5 {
+	width: 80px;
+	height: 80px;
+	margin: 0px;
+}
+
+.sloth1, .sloth2, .sloth3 {
+	display: none;
+	padding: 1px;
+	margin: 0px;
+}
+
+.sloth4, .sloth5, .sloth6 {
+	display: none;
+	padding: 1px;
+	margin: 0px;
+}
+
+.sloth4, .slug5, .slug6 {
+	display: none;
+}
+
+.row h3 .nmbr {
 	color: #F57C00;
 	font-family: serif;
-	font-size: 30;
+	font-size: 35;
 }
 
-{
+.first {
   width: 40px;
   height: 50px;
   position: relative;
@@ -206,5 +225,10 @@ button .btn {
 
 .work99 {
 	background-image: url("pic21.jpg");
+}
+
+.vec a {
+	color: orange;
+	font-size: 6px;
 }
 

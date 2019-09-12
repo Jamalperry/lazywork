@@ -1,56 +1,51 @@
-function myAnts() {
-	document.getElementById("fact1").innerHTML = "They are unteachable, careless and indifferent.";
-}
-
-function myVerse1() {
-	document.getElementById("verse1").innerHTML = "P";
-}
-
-function myAnts2() {
-	document.getElementById("fact2").innerHTML = "They love excessive sleep.";
-}
-
-function myVerse2() {
-	document.getElementById("verse2").innerHTML = "T.";
-}
-
-function myAnts3() {
-	document.getElementById("fact3").innerHTML = "Irritating to others.";
-}
-
-function myVerse3() {
-	document.getElementById("verse3").innerHTML = "#";
-}
-
-function myAnts4() {
-	document.getElementById("fact4").innerHTML = "Servants to others.";
-}
-
-function myVerse4() {
-	document.getElementById("verse4").innerHTML = "They are unteachable, careless and indifferent.";
-}
-
-function myAnts5() {
-	document.getElementById("fact5").innerHTML = "Too lazy to cook.";
-}
-
-function myVerse5() {
-	document.getElementById("verse5").innerHTML = "T";
-}
-
-function myAnts6() {
-	document.getElementById("fact6").innerHTML = "Wishful thinkers.";
-}
-
-function myVerse6() {
-	document.getElementById("verse6").innerHTML = "t";
-}
-
-function myAnts#() {
-	document.getElementById("fact#").innerHTML = "#";
-}
-
-function myVerse#() {
-	document.getElementById("verse#").innerHTML = "#";
-}
-
+$(document).ready(function() {
+	$(".slug1").click(function() {
+		$(".img1").animate( {
+			right: '150px',
+			width: '180px',
+			height: '180px'
+			});
+		$(".sloth1").slideToggle(1000);
+		});
+	$(".slug2").click(function() {
+		$(".img2").animate( {
+			left: '150px',
+			width: '180px',
+			height: '180px'
+			});
+		$(".sloth2").slideToggle(1000);
+	});
+	$(".slug3").click(function() {
+		$(".img3").animate( {
+			right: '150px',
+			width: '180px',
+			height: '180px'
+			});
+		$(".sloth3").fadeToggle(1000);
+	});
+	$(".slug4").click(function() {
+		$(".img4").animate( {
+			left: '150px',
+			width: '180px',
+			height: '180px'
+			});
+		$(".sloth4").fadeToggle(1000);
+	});
+	$(".slug5").click(function() {
+		$(".img5").animate( {
+			right: '150px',
+			width: '180px',
+			height: '180px'
+			});
+		$(".sloth5").slideToggle();
+	});
+	$(".slug6").click(function() {
+		$(".img6").animate( {
+			right: '150px',
+			width: '180px',
+			height: '180px'
+			});
+		$(".sloth6").slideToggle();
+	});
+			
+});
