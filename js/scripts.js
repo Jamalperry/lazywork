@@ -5,7 +5,7 @@ $(document).ready(function() {
 			width: '180px',
 			height: '180px'
 			});
-		$(".sloth1").slideToggle(1000);
+		$(".sloth1").toggle();
 		});
 	$(".slug2").click(function() {
 		$(".img2").animate( {
@@ -13,7 +13,7 @@ $(document).ready(function() {
 			width: '180px',
 			height: '180px'
 			});
-		$(".sloth2").slideToggle(1000);
+		$(".sloth2").toggle();
 	});
 	$(".slug3").click(function() {
 		$(".img3").animate( {
@@ -21,7 +21,7 @@ $(document).ready(function() {
 			width: '180px',
 			height: '180px'
 			});
-		$(".sloth3").fadeToggle(1000);
+		$(".sloth3").toggle();
 	});
 	$(".slug4").click(function() {
 		$(".img4").animate( {
@@ -29,7 +29,7 @@ $(document).ready(function() {
 			width: '180px',
 			height: '180px'
 			});
-		$(".sloth4").fadeToggle(1000);
+		$(".sloth4").toggle(1000);
 	});
 	$(".slug5").click(function() {
 		$(".img5").animate( {
@@ -37,7 +37,7 @@ $(document).ready(function() {
 			width: '180px',
 			height: '180px'
 			});
-		$(".sloth5").slideToggle();
+		$(".sloth5").toggle();
 	});
 	$(".slug6").click(function() {
 		$(".img6").animate( {
@@ -45,7 +45,7 @@ $(document).ready(function() {
 			width: '180px',
 			height: '180px'
 			});
-		$(".sloth6").slideToggle();
+		$(".sloth6").toggle();
 	});
 			
 });

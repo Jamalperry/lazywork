@@ -93,7 +93,7 @@ p2 {
 	height: 20px;
 }
 
-.img1 {
+.img1, .img3, .img5 {
 	width: 80px;
 	height: 80px;
 	margin: 0px;
@@ -102,7 +102,7 @@ p2 {
 	margin: 0px;
 }
 
-.img2 {
+.img2, .img4, .img6 {
 	width: 80px;
 	height: 80px;
 	margin: 0px;
@@ -110,22 +110,20 @@ p2 {
 	display: block;
 }
 
-.img3 {
+.img7, .img9, .img11 {
 	width: 80px;
 	height: 80px;
 	margin: 0px;
+	float: left;
+	display: block;
 }
 
-.img4 {
+.img8, .img10, .img12 {
 	width: 80px;
 	height: 80px;
 	margin: 0px;
-}
-
-.img5 {
-	width: 80px;
-	height: 80px;
-	margin: 0px;
+	float: right;
+	display: block;
 }
 
 .sloth1, .sloth2, .sloth3 {
@@ -140,8 +138,16 @@ p2 {
 	margin: 0px;
 }
 
-.sloth4, .slug5, .slug6 {
+.sloth7, .sloth8, .sloth9 {
 	display: none;
+	padding: 1px;
+	margin: 0px;
+}
+
+.sloth10, .sloth11, .sloth12 {
+	display: none;
+	padding: 1px;
+	margin: 0px;
 }
 
 .row h3 .nmbr {
