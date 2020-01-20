@@ -13,6 +13,16 @@ body {
 	margin: 30px;
 }
 
+h3 {
+	color: white;
+	text-shadow: 1px 1px 1px  #FB8739;
+	letter-spacing: 5px;
+}
+
+p {
+	white-space: pre-wrap;
+}
+
 p6 {
 	color: #FB8739;
 	font-size: initial;
@@ -91,6 +101,18 @@ p2 {
 .img0 {
 	width: 20px;
 	height: 20px;
+}
+
+.img012 {
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+.img013 {
+	width: 20px;
+	height: 20px;
+	float: right;
 }
 
 .img1, .img3, .img5 {
